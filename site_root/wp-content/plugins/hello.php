@@ -2,7 +2,7 @@
 /**
  * @package Hello_Dolly
  * @version 1.6
- */
+ */   
 /*
 Plugin Name: Hello Dolly
 Plugin URI: http://wordpress.org/plugins/hello-dolly/
@@ -80,3 +80,17 @@ function dolly_css() {
 add_action( 'admin_head', 'dolly_css' );
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
