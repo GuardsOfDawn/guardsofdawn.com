@@ -1,0 +1,102 @@
+/*
+Theme Name: Destro
+Theme URI: http://www.themealley.com/destro/
+Description: Responsive WordPress magazine theme with 3 home page layouts, 300x250 ads, 125x125 ads, 8 premade (Black, Blue, Red, brown, pink, white and Green) ready to use color schemes/skins, 2 page layouts including a full width page template, featured posts, social icons, twitter updates, threaded comments and widget support.
+Version: 2.8.46
+Author: ThemeAlley.com
+Author URI: http://www.themealley.com/
+Tags: black, blue, brown, gray, green, red, tan, dark, light, pink, silver, orange, white, two-columns, custom-menu, right-sidebar, fixed-layout, fluid-layout, custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, translation-ready, full-width-template, custom-header, flexible-header, responsive-layout
+License: GNU General Public License
+License URI: license.txt
+*/
+#menu ul.dropdown{margin-top:1px;}
+#menu ul.dropdown li a{
+	padding: 10px 20px;
+	font: 18px "Open Sans";
+}
+#menu ul.dropdown li{
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	margin-right: -16px;
+}
+.mag_post_excerpt_p p{padding:0}
+.mag_post_excerpt_p p a{
+	padding: 10px 25px;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	display:inline-block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration:none;
+}
+.mag_post_excerpt_p p a:hover{background:#000000}
+.widget_recent_entries .widget ul li{
+	margin:0;
+	padding:0;
+	margin: 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+.widget_recent_entries .widget ul li:hover{background:#000000;}
+.widget_recent_entries .widget ul li a{
+	text-decoration:none;
+	display:block;
+	padding:10px 20px;
+}
+.widget_recent_entries .sidebar_widget_bottom{height:0px;}
+
+#content_section .soc_buttons{ text-align:center; cursor default;margin:20px 0 0 0}
+#content_section .soc_buttons li{
+	display: inline-block;
+	border: none;
+	width: 50px;
+	margin: 0 5px 0 5px;
+	padding: 0;
+}
+#content_section .soc_buttons li a{display:block; width:50px; height:50px; background:url('http://guardsofdawn.com/dev/wp-content/uploads/2014/05/soc1.png') no-repeat 0 0; position:relative;}
+#content_section .soc_buttons li a.vk_button{background-position:0 0}
+#content_section .soc_buttons li a.fb_button{background-position:-64px 0}
+#content_section .soc_buttons li a.yt_button{background-position:-128px 0}
+#content_section .soc_buttons li a.tw_button{background-position:-192px 0}
+#content_section .soc_buttons li a:after{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:50px;
+	height:50px;
+	background:url('http://guardsofdawn.com/dev/wp-content/uploads/2014/05/soc1.png') no-repeat 0 0;
+	transition        : all 0.3s;
+	-moz-transition   : all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition     : all 0.3s;
+}
+#content_section .soc_buttons li a.vk_button:after{background-position:0 -64px}
+#content_section .soc_buttons li a.fb_button:after{background-position:-64px -64px}
+#content_section .soc_buttons li a.yt_button:after{background-position:-128px -64px}
+#content_section .soc_buttons li a.tw_button:after{background-position:-192px -64px}
+#content_section .soc_buttons li a:hover:after{opacity:0}
+.all_photos{
+	display:block;padding: 10px 25px;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none!important;
+	margin:0 20px;
+}
+.all_photos:hover {background: #000000;}
